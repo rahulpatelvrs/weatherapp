@@ -1,0 +1,54 @@
+body {
+    background:url('https://t4.ftcdn.net/jpg/06/87/01/35/360_F_687013567_wJcC81fXP3BuQkB51R4IKmo47wWHSsls.jpg');
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5); /* Blue box shadow */
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.search-container {
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 8px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* Blue button color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #13d123; /* Darker blue on hover */
+}
+
+#weather {
+    font-size: 24px;
+}
